@@ -46,6 +46,7 @@ class sg:
                 self.pw.ChangeDutyCycle(duty)
                 time.sleep(0.02)
                 p=p-10
+        self.direction=d
         duty=2.5+10*d/180
         self.pw.ChangeDutyCycle(duty)
         time.sleep(0.02)
